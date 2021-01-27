@@ -1,0 +1,34 @@
+body{
+
+    background-color: rgb(43, 202, 4);
+}
+h1
+
+{
+    color:darkgoldenrod;
+    background-color: cyan;
+    
+}
+#first{
+    width: 50%;
+    background-color: royalblue;
+}
+.second{
+    
+    background-color: rgb(226, 222, 222);
+    width: 50%;
+    text-align: center;
+    font-family: cursive;
+}
+.third
+{
+    width: 50%;
+    background-color: blueviolet;
+}
+.fourth
+{
+    width: 50%;
+   font-family: 'Courier New', Courier, monospace; 
+   font-weight: 900;
+   background-color: rgba(217, 255, 0, 0.801);
+}
