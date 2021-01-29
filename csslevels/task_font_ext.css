@@ -1,0 +1,60 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+
+}
+
+.first
+{
+    background-color: blue;
+    width: 10%;
+    height: 600px;
+    float: left;
+    margin-left: 20%;
+}
+.second
+{
+    background-color: cadetblue;
+    width: 10%;
+    float: left;
+    height: 600px;
+    margin-left: 2%;
+
+}
+.third
+{
+    background-color: greenyellow;
+    width: 10%;
+    float: left;
+    height: 600px;
+    margin-left: 2%;
+
+}
+
+.fourth
+{
+    background-color: yellow;
+    width: 10%;
+    height: 600px;
+    float: left;
+    margin-left: 2%;
+}
+
+.fifth
+{
+    background-color: red;
+    width: 10%;
+    float: left;
+    height: 600px;
+    margin-left: 2%;
+}
+.null
+{
+    margin-top: 3%;
+}
