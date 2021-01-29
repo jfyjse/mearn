@@ -1,13 +1,13 @@
 #top
 {
     position:absolute;
-    left: 20%;
+    left: 30%;
     bottom: 20%;
     background-color:yellowgreen;
     border-style: solid;
     border-color: green;
     border-width: .2cm;
-    padding-left: 5%;
+   /* padding-left: 5%;*/
     width: 40%;
     
 
