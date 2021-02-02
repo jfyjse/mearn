@@ -1,0 +1,27 @@
+.lumfir
+{
+    margin-top: 7%;
+    line-height: 25px;
+}
+h1
+{
+    color: #5e068a;
+    font-weight: 700;
+}
+
+span
+{
+    color: #5e068a99;
+}
+.btn
+{
+    border: 2px solid purple;
+   background-color: #5e068a;
+   color: white; 
+   border-radius: 20px;
+}
+.btn:hover
+{
+   background-color: white;
+   color: rgb(104, 0, 104); 
+}
