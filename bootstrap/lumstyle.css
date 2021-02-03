@@ -1,6 +1,6 @@
 .lumfir
 {
-    margin-top: 7%;
+    margin-top: 15%;
     line-height: 25px;
 }
 h1
@@ -19,9 +19,14 @@ span
    background-color: #5e068a;
    color: white; 
    border-radius: 20px;
+   margin-top: 21px;
 }
 .btn:hover
 {
    background-color: white;
    color: rgb(104, 0, 104); 
+}
+.imgss
+{
+    margin-left: 30%;
 }
