@@ -1,7 +1,7 @@
 .span1
 {
     font-weight: 700;
-    color: rgb(33, 146, 199);
+    color: rgb(0, 127, 175);
 }
 .h11
 {
@@ -29,14 +29,16 @@ h6{
   height: auto;
   border-radius: 50%;
   margin-top: 8%;
-  border : rgb(0, 119, 255) solid 8px;
+  border : rgb(68, 2, 122) solid 12px;
+  opacity: .95;
 }
 
 .profimg:hover
 {
     background-color: white;
-    border-color: blueviolet;
+    border-color: rgb(0, 127, 175);
     color: blueviolet;
+    opacity: 1;
     
 }
 
@@ -53,8 +55,15 @@ h6{
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
     border: 4px;
-    border-top: 6px solid darkcyan;
+    border-top: 6px solid rgb(0, 127, 175);
     
+    
+  }
+
+  .hrr1
+  {
+    border: 4px;
+    border-top: 6px solid rgb(255, 255, 255);
   }
   
   /* .bgimg
@@ -74,8 +83,22 @@ h6{
       padding-right: 5%;
       
   }
+  .ipdng
+  {
+    padding-left: 8%;
+    
+  }
 
   .lin
   {
       /* line-height: 50px; */
+  }
+
+  .contimg
+  {
+     
+      
+     padding-top: 15%;
+     padding-left: 5%;
+     align-content: center;
   }
