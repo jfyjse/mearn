@@ -6,12 +6,14 @@
 h1
 {
     color: #5e068a;
-    font-weight: 700;
+    font-weight: 800;
+    text-align: center;
 }
 
 span
 {
     color: #5e068a99;
+    text-align: right;
 }
 .btn
 {
@@ -29,4 +31,34 @@ span
 .imgss
 {
     margin-left: 30%;
+}
+
+.h44
+{
+    margin-top: 5%;
+    color: purple;
+}
+.img2
+{
+    margin-top: 3%;
+    width: 90%;
+  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adjcnt
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.txtadj
+{
+ margin-left: 3%;
+}
+.fff
+{
+    margin-top: 3%;
 }

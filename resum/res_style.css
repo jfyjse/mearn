@@ -1,0 +1,30 @@
+.span1
+{
+    font-weight: 700;
+    color: rgb(33, 146, 199);
+}
+.h11
+{
+    font-weight: 800;
+    color:black;
+}
+h6{
+    font-weight: 300;
+}
+.profimg
+{
+    border-radius: 50%;
+    border-color: cornflowerblue ;
+    border-width: 2px;
+   margin-left: 25%;
+   margin-top: 10%;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgb(23, 148, 170);
+    
+  }
+  
