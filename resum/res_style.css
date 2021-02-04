@@ -7,24 +7,75 @@
 {
     font-weight: 800;
     color:black;
+
 }
 h6{
     font-weight: 300;
 }
 .profimg
 {
-    border-radius: 50%;
+    /* border-radius: 50%;
     border-color: cornflowerblue ;
     border-width: 2px;
-   margin-left: 25%;
+   margin-left: 40%;
    margin-top: 10%;
+   height: 43%;
+   width: 25%; */
+
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 8%;
+  border : rgb(0, 119, 255) solid 8px;
 }
 
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 2px solid rgb(23, 148, 170);
+.profimg:hover
+{
+    background-color: white;
+    border-color: blueviolet;
+    color: blueviolet;
+    
+}
+
+.hrrr
+{
+    
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    border: 2px;
+    border-top: 3.5px solid grey;
+}
+.hrr {
+    
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    border: 4px;
+    border-top: 6px solid darkcyan;
     
   }
   
+  /* .bgimg
+  {
+      background-image: url("ger.png");
+      height: 100%;
+      background-blend-mode: lighten;
+  } */
+  body
+  {
+      height: 100%;
+      width: 100%;
+  }
+  .pdng
+  {
+      padding-left: 5%;
+      padding-right: 5%;
+      
+  }
+
+  .lin
+  {
+      /* line-height: 50px; */
+  }
