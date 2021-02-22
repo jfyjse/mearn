@@ -15,3 +15,6 @@ console.log(dataa);
 //reduce
 var dataaa=arra.reduce((num1,num2)=>num1+num2)
 console.log(dataaa);
+
+//sort
+arra.sort((o,o1)=>o>o1?-1:1).forEach(o=>console.log(o))

@@ -36,3 +36,8 @@ console.log(ename);
 // }
 
 employ.filter(emp=>emp.desig=="kev").forEach(o=>console.log(o.name))
+var high=employ.map(emp=>emp.sal).reduce((emp1,emp2)=>emp1>emp2?emp1:emp2)
+console.log(high);
+console.log("seperate");
+
+employ.sort((o1,o2)=>o1.sal-o2.sal).forEach(o=>console.log(o))
