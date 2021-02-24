@@ -13,35 +13,42 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
-  <script src="bnk.js"></script>
+
 </head>
 
-<body style="width: 100%;height: 100%; background-color: yellow;">
-  <div style="background-color: yellow;">
-  <div style="text-align: center;" class="container">
-    <h1>IKKACHI BENK <img style="width: 200px; margin-top: 25px;border-radius: 30%;" src="ikkachi.jpeg" alt="no img"> </h1>
+<body style="width: 100%;height: 100% ; margin-top: 25px; background-image: url('14092.jpg');">
+  
+  <div style="text-align: center;"  class="container">
+    <h1 style=" margin-top:30px;">User Login</h1>
   </div>
 
 
   <form>
-    <div style="width: 35%;height: 320px; background-color: chartreuse ;border-style: groove;" class="container">
-      <div> <h2 style="text-align: center;color: red;">Keri vaada mekkele...</h2> </div>
+    <div style="width: 35%;height: 330px; background-color: white ; border-radius: 2px;" class="container">
       <div class="mb-3">
-        <label style="margin-top: 7px;" for="acno" class="form-label">Acoount Number pera</label>
+        <label style="margin-top: 7px;" for="acno" class="form-label">Account number</label>
         <input type="text" class="form-control" id="acno">
 
       </div>
       <div class="mb-3">
-        <label for="pswd" class="form-label">Password pera</label>
+        <label for="pswd" class="form-label">password</label>
         <input type="password" class="form-control" id="pswd">
-        <div id="emailHelp" class="form-text">nen aarodum pereyilla mwonu</div>
+        <div id="emailHelp" class="form-text">We'll never share your password with anyone else.</div>
       </div>
-      <!-- <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">nekkikko</label>
-        </div> -->
+      
+
+
+      <div class="mb-3">
+        <label for="pswd" class="form-label">Amount</label>
+        <input type="text" class="form-control" id="amt">
+        <div id="emailHelp" class="form-text">Enter in indian rupees</div>
+      </div>
+
+
+      
       <div style="display: flex;justify-content: center;">
-        <button type="submit" class="btn btn-primary">nekku</button>
+        <button  type="button" onclick="Bank.deposit()" class="btn btn-primary">deposit</button>
+        <button style="margin-left: 5px;" type="button" onclick="Bank.withdraw()" class="btn btn-primary">withdraw</button>
       </div>
   </form>
 
