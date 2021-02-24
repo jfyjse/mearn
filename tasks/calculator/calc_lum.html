@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Calculator</title>
+<script src="lumcalc.js"></script>
+</head>
+
+<body>
+<h3> Calculator</h3>
+<br />
+<style>
+#calc {
+width: 300px;
+height: 250px;
+}
+
+#btn {
+width: 96%;
+height: 40px;
+font-size: 20px;
+}
+</style>
+
+<table id="calc">
+<tr>
+<td colspan=5><input id="inpuit"  name="display" type="text"></td>
+</tr>
+<tr>
+<td><input id="btn" type=button onclick="clearBox()" value="C"></td>
+<td><input id="btn" type=button  value="<" onclick="slize()"></td>
+<td><input id="btn" type=button onclick="displayBox('/')" value="/"></td>
+<td><input id="btn" type=button value="x"  onclick="displayBox('*')"></td>
+</tr>
+<tr>
+<td><input id="btn" type=button value="7" onclick="displayBox('7')"></td>
+<td><input id="btn" type=button value="8" onclick="displayBox('8')"></td>
+<td><input id="btn" type=button value="9" onclick="displayBox('9')"></td>
+<td><input id="btn" type=button value="-" onclick="displayBox('-')"></td>
+</tr>
+<tr>
+<td><input id="btn" type=button value="4" onclick="displayBox('4')"></td>
+<td><input id="btn" type=button value="5" onclick="displayBox('5')"></td>
+<td><input id="btn" type=button value="6" onclick="displayBox('6')"></td>
+<td><input id="btn" type=button value="+" onclick="displayBox('+')"></td>
+</tr>
+<tr>
+<td><input id="btn" type=button value="1" onclick="displayBox('1')"></td>
+<td><input id="btn" type=button value="2" onclick="displayBox('2')"></td>
+<td><input id="btn" type=button value="3" onclick="displayBox('3')">
+</td>
+<td rowspan="2"><input id="btn" type=button value="=" onclick="result()" style="height: 82px!important;"></td>
+</tr>
+<tr>
+<td colspan=2><input id="btn" type=button value="0"></td>
+<td><input id="btn" type=button value="."></td>
+</tr>
+</table>
+</body>
+</html>
