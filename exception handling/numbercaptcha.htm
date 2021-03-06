@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exception handle
+    </title>
+</head>
+<body>
+
+    <div class="container">
+        <p>Enter no b/w 5 and 10 <input id="txt" type="text">  <button id="btn" onclick="btnClk()" >chk</button> </p>
+
+    </div>
+    
+</body>
+<script>
+function btnClk()
+{
+    var v= document.querySelector("#txt").value
+    try{
+    if(v<5) throw new Error("value less than 5")
+    {
+        if((v>5)&(v<10)) throw new Error("value >10")
+    {
+        alert ("oky")
+    }
+    }
+    
+}
+catch(err)
+{
+    console.log(err.message);
+}
+
+
+}
+
+
+</script>
+</html>
