@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax</title>
+
+</head>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+<body>
+    <h1>Welcome</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">userId</th>
+                <th scope="col">id</th>
+                <th scope="col">title</th>
+                <th scope="col">body</th>
+            </tr>
+        </thead>
+        <tbody id="data"></tbody>
+
+    </table>
+    <button onclick="getPost()">fettt</button>
+
+</body>
+<script>
+    var request = new XMLHttpRequest()
+    request.open("get", "https://jsonplaceholder.typicode.com/posts/1")
+    function getPost() {
+        request.send()
+    }
+
+
+    request.onreadystatechange = () => {
+        if (request.readyState == 4) {
+            if ((request.status >= 200) & (request.status <= 300)) {
+                var d = JSON.parse(request.responseText)
+
+                console.log(d);
+                var html_data = ""
+                html_data = html_data + "<tr> <td>" + d.userId + "<tr> <td>" + d.id + "<tr> <td>" + d.title;
+                document.querySelector("#data").innerHTML = html_data;
+
+            }
+
+
+            else {
+                console.log("failed");
+            }
+        }
+    }
+
+</script>
+
+</html>
